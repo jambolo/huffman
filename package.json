@@ -1,0 +1,26 @@
+{
+  "name": "huffman",
+  "version": "1.0.0",
+  "description": "Huffman coding demo",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "coffee -c -o src/ cs/",
+    "watch": "coffee -w -c -o src/ cs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jambolo/huffman.git"
+  },
+  "keywords": [
+    "huffman",
+    "encoding",
+    "compression"
+  ],
+  "author": "John Bolton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jambolo/huffman/issues"
+  },
+  "homepage": "https://github.com/jambolo/huffman#readme"
+}
