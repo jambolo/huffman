@@ -4,9 +4,9 @@
   "description": "Huffman coding demo",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "coffee -c -o src/ cs/",
-    "watch": "coffee -w -c -o src/ cs/"
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "coffee -o cs/ -c src/",
+    "watch": "coffee -w -o cs/ -c src/"
   },
   "repository": {
     "type": "git",
